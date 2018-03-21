@@ -16,5 +16,10 @@ namespace Management
         {
             InitializeComponent();
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            a = Factory.Create(comboBox1.Text);
+        }
     }
 }
