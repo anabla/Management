@@ -1,2 +1,0 @@
-# Management
-Hotel Management project
