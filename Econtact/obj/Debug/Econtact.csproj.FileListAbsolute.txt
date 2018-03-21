@@ -29,3 +29,6 @@ C:\Users\Arton Jashari\Desktop\Projekti\Econtact\Econtact\obj\Debug\Econtact.pdb
 C:\Users\Arton Jashari\Desktop\GitHub\Management\Econtact\bin\Debug\Econtact.exe.config
 C:\Users\Arton Jashari\Desktop\GitHub\Management\Econtact\obj\Debug\Econtact.exe
 C:\Users\Arton Jashari\Desktop\GitHub\Management\Econtact\obj\Debug\Econtact.pdb
+C:\Users\Sufi\Desktop\GitHub\Management\Econtact\bin\Debug\Econtact.exe.config
+C:\Users\Sufi\Desktop\GitHub\Management\Econtact\obj\Debug\Econtact.exe
+C:\Users\Sufi\Desktop\GitHub\Management\Econtact\obj\Debug\Econtact.pdb
