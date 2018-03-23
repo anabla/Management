@@ -14,6 +14,10 @@ using Econtact.FactoryClasses;
 
 namespace Econtact
 {
+    struct mbyll
+    {
+        public string mbyllet;
+    }
     public partial class Econtact : Form
     {
         private contactClass a = null;
@@ -63,10 +67,13 @@ namespace Econtact
             DataTable dt = c.Select();
             dgvContactList.DataSource = dt;
         }
-
+        mbyll cl = new mbyll();
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Close();
+            cl.mbyllet = "Aplikacioni po mbyllet!";
+            MessageBox.Show(cl.mbyllet);
+            Application.Exit();
         }
         //Method to Clean Fields
         public void Clear()
