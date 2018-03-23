@@ -32,18 +32,19 @@ namespace Econtact
 
             Username user = Username.Artoni;
 
-            if(user == Username.Artoni)
-            {
-                MessageBox.Show("U kyq Artoni");
-            }else if(user == Username.Albana)
-            {
-                MessageBox.Show("U kyq Albana");
-
-            }else{
-                MessageBox.Show("U kyq Suferina");
-            }
             if (textBox1.Text == username && textBox2.Text == password) {
 
+                if (user == Username.Artoni)
+                {
+                    MessageBox.Show("U kyq Artoni");
+                }
+                else if (user == Username.Albana){
+                    MessageBox.Show("U kyq Albana");
+                }
+                else
+                {
+                    MessageBox.Show("U kyq Suferina");
+                }
                 //Redirect to Hotel Management
                 this.Hide();
                 Econtact ec = new Econtact();

@@ -58,7 +58,7 @@
     <Compile Include="econtactClasses\contactClass.cs" />
     <Compile Include="ExceptionClass\HoteliException.cs" />
     <Compile Include="FactoryClasses\Factory.cs" />
-    <Compile Include="InterfaceClass\Transaksioni.cs" />
+    <Compile Include="InterfaceClass\Punetoret.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>

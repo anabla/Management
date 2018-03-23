@@ -182,10 +182,5 @@ namespace Econtact
         {
             a = Factory.Create(comboBox1.Text);
         }
-
-        private void dgvContactList_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
     }
 }

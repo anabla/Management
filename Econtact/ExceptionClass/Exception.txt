@@ -1,0 +1,19 @@
+//Referencat ose librarite
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+//Folderi mrena folderit Econtact folderi exception
+namespace Econtact.ExceptionClass
+{	
+	//Klasa exception
+    class HoteliException : Exception
+    {
+		//Konstruktori qe e pranon messazhin dhe e dergon ne hierarkine me te nalte te klases exception
+        public HoteliException(String message) : base(message)
+        {
+
+        }
+    }
+}
